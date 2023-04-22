@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7F8FF"
+    tools:context=".ActivityNotify">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/screenshot_2023_04_05_135412" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E7F8FF"
+            android:fontFamily="@font/inter"
+            android:text="        Ingrese su matricula"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#0031DF"
+            app:cardCornerRadius="10dp" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="363dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="10dp">
+
+                <EditText
+                    android:id="@+id/editTextNumberSigned"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:ems="10"
+                    android:inputType="numberSigned" />
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/Listo"
+            android:layout_width="370dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_image_background"
+            android:text="¡Listo!"
+            android:textSize="20sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

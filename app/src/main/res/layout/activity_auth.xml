@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7F8FF"
+    tools:context=".AuthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            app:cardCornerRadius="0dp">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:adjustViewBounds="false"
+
+                android:cropToPadding="false"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/bg_itla" />
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="290dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            app:cardBackgroundColor="#0469FF"
+            app:cardCornerRadius="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="280dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#000000"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/screenshot_2023_04_05_135412" />
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E7F8FF"
+            android:fontFamily="@font/inter"
+            android:text="       Correo Institucional"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#0031DF"
+            app:cardCornerRadius="10dp" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="363dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="10dp">
+
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:ems="10"
+                    android:inputType="textEmailAddress" />
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="       Contraseña"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#0031DF"
+            app:cardCornerRadius="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="363dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="10dp">
+
+                <EditText
+                    android:id="@+id/editTextTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:ems="10"
+                    android:inputType="textPassword" />
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/ingresar"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_image_background"
+            android:fontFamily="@font/inter"
+            android:gravity="bottom|center"
+            android:text="Ingresar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/inter"
+                android:gravity="center"
+                android:text="            ¿Problemas al iniciar?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/linkayuda"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text=" Notificar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0469FF"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

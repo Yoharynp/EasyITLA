@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7F8FF"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="290dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            app:cardBackgroundColor="#0469FF"
+            app:cardCornerRadius="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="280dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#000000"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/screenshot_2023_04_05_135412" />
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:id="@+id/edittextmonedero"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/aplicacion_wallet_pass__2_"
+            android:fontFamily="@font/inter"
+            android:gravity="center"
+            android:text="RD$0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#0031DF"
+            android:textSize="34sp"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btnreservar"
+            android:layout_width="370dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_image_background"
+            android:fontFamily="@font/inter"
+            android:gravity="bottom|center"
+            android:text="Reservar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/btnLocacion"
+            android:layout_width="370dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_image_background"
+            android:fontFamily="@font/inter"
+            android:gravity="bottom|center"
+            android:text="Locacion del BUS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/btnrecargar"
+            android:layout_width="370dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_image_background"
+            android:fontFamily="@font/inter"
+            android:gravity="bottom|center"
+            android:text="Recargar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/btnconfig"
+            android:layout_width="370dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_image_background"
+            android:fontFamily="@font/inter"
+            android:gravity="bottom|center"
+            android:text="Configuracion"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/Salir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Salir"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#0469FF"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

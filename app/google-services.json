@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149390380299",
+    "project_id": "easyitla",
+    "storage_bucket": "easyitla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149390380299:android:37b050edf1dc41c995a60e",
+        "android_client_info": {
+          "package_name": "com.example.easyitla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149390380299-s2ad8fkc1g7so5akfdhmmiujocu81efu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx8gzviDIuFj0ZdXlqrUq-NmKX41VKFk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149390380299-s2ad8fkc1g7so5akfdhmmiujocu81efu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
